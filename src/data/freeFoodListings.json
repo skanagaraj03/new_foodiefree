@@ -1,11 +1,11 @@
 [
-  { "id": 1, "name": "Amma Kitchen", "district": "Erode", "city": "Erode" },
-  { "id": 2, "name": "Friday Annadhanam", "district": "Salem", "city": "Attur" },
-  { "id": 3, "name": "Temple Service Meal", "district": "Madurai", "city": "Madurai" },
-  { "id": 4, "name": "Mosque Noon Meal", "district": "Coimbatore", "city": "Mettupalayam" },
-  { "id": 5, "name": "Church Care Point", "district": "Trichy", "city": "Srirangam" },
-  { "id": 6, "name": "Daily Share Counter", "district": "Namakkal", "city": "Rasipuram" },
-  { "id": 7, "name": "Volunteer Food Bank", "district": "Tiruppur", "city": "Dharapuram" },
-  { "id": 8, "name": "Festival Food Camp", "district": "Theni", "city": "Periyakulam" },
-  { "id": 9, "name": "Community Hall Meals", "district": "Karur", "city": "Kulithalai" }
+  { "id": 1, "name": "Pulisadham", "district": "Erode", "city": "Erode", "area": "Anthiyur", "image": "https://images.unsplash.com/photo-1701579231342-f488d3a139bf?auto=format&fit=crop&w=900&q=80", "likes": 102, "dislikes": 10, "comments": 2, "dayLabel": "Today" },
+  { "id": 2, "name": "Lemon Rice", "district": "Salem", "city": "Attur", "area": "Old Bus Stand", "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=900&q=80", "likes": 88, "dislikes": 5, "comments": 4, "dayLabel": "Friday" },
+  { "id": 3, "name": "Sambar Sadham", "district": "Madurai", "city": "Madurai", "area": "Periyar", "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80", "likes": 71, "dislikes": 4, "comments": 3, "dayLabel": "Today" },
+  { "id": 4, "name": "Curd Rice", "district": "Coimbatore", "city": "Mettupalayam", "area": "Railway Colony", "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=900&q=80", "likes": 66, "dislikes": 3, "comments": 2, "dayLabel": "Sunday" },
+  { "id": 5, "name": "Kichadi", "district": "Trichy", "city": "Srirangam", "area": "Main Road", "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80", "likes": 49, "dislikes": 2, "comments": 1, "dayLabel": "Today" },
+  { "id": 6, "name": "Vegetable Rice", "district": "Namakkal", "city": "Rasipuram", "area": "Anna Nagar", "image": "https://images.unsplash.com/photo-1673461161912-640f1f8ed26f?auto=format&fit=crop&w=900&q=80", "likes": 53, "dislikes": 2, "comments": 3, "dayLabel": "Monday" },
+  { "id": 7, "name": "Tomato Rice", "district": "Tiruppur", "city": "Dharapuram", "area": "Market Street", "image": "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?auto=format&fit=crop&w=900&q=80", "likes": 44, "dislikes": 1, "comments": 2, "dayLabel": "Today" },
+  { "id": 8, "name": "Sweet Pongal", "district": "Theni", "city": "Periyakulam", "area": "Temple Lane", "image": "https://images.unsplash.com/photo-1604908176997-431ef23b3ae4?auto=format&fit=crop&w=900&q=80", "likes": 92, "dislikes": 5, "comments": 7, "dayLabel": "Festival" },
+  { "id": 9, "name": "Tamarind Rice", "district": "Karur", "city": "Kulithalai", "area": "Old Town", "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=900&q=80", "likes": 58, "dislikes": 2, "comments": 2, "dayLabel": "Today" }
 ]

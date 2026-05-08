@@ -63,10 +63,21 @@ function FoodListingPage({ title, listings, ctaLabel }) {
         <section className="listing-grid">
           {filteredItems.map((item) => (
             <article className="listing-card" key={item.id}>
-              <h3>{item.name}</h3>
-              <p>{item.district}</p>
-              <p>{item.city}</p>
-              {item.price ? <span>{item.price}</span> : <span>Free</span>}
+              <div className="card-image-wrap">
+                <img src={item.image} alt={item.name} className="card-image" />
+                <h3 className="card-title">{item.name}</h3>
+              </div>
+              <p className="card-location">
+                {item.area}, {item.district}
+              </p>
+              <div className="card-bottom-row">
+                <div className="card-stats">
+                  <span>👍 {item.likes}</span>
+                  <span>👎 {item.dislikes}</span>
+                  <span>💬 {item.comments}</span>
+                </div>
+                <span className="card-badge">{item.price ? item.price : item.dayLabel}</span>
+              </div>
             </article>
           ))}
         </section>
