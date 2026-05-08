@@ -1,0 +1,217 @@
+.add-food-page {
+  min-height: 100vh;
+  background: #efefef;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo-mark {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.home-nav {
+  display: flex;
+  gap: 18px;
+}
+
+.home-nav-link {
+  text-decoration: none;
+  color: #141414;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 24px;
+  border-radius: 999px;
+}
+
+.home-nav-link.active {
+  background: #f39a0e;
+  color: #ffffff;
+}
+
+.login-btn {
+  border: none;
+  background: #020b2f;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 999px;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.add-food-shell {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 32px 48px;
+}
+
+.add-food-hero {
+  margin-top: 26px;
+  min-height: 100vh;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.28)),
+    url("/add food background image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 86px 20px;
+}
+
+.add-food-overlay {
+  width: min(100%, 940px);
+  max-height: calc(100vh - 180px);
+  overflow-y: auto;
+  border-radius: 34px;
+}
+
+.add-food-form {
+  background: #fb9100;
+  border-radius: 34px;
+  padding: 30px 34px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-food-form label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #101010;
+}
+
+.add-food-form input,
+.add-food-form textarea,
+.add-food-form select {
+  border: none;
+  background: #ececec;
+  border-radius: 14px;
+  min-height: 46px;
+  padding: 10px 14px;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.add-food-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.add-food-form select {
+  font-weight: 600;
+}
+
+.choice-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.chip {
+  border: none;
+  border-radius: 14px;
+  background: #ececec;
+  color: #111a35;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  margin-top: 8px;
+  align-self: center;
+  border: none;
+  border-radius: 18px;
+  background: #ececec;
+  color: #111a35;
+  font-size: 24px;
+  padding: 8px 44px;
+  cursor: pointer;
+}
+
+.home-footer {
+  background: #c8c8c8;
+  margin-top: 0;
+  padding: 70px 48px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.home-footer h3 {
+  margin: 0 0 10px;
+  font-size: 62px;
+}
+
+.home-footer p {
+  margin: 0;
+  color: #323232;
+}
+
+.social-row {
+  display: flex;
+  gap: 10px;
+}
+
+.social-row span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #020b2f;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .add-food-shell {
+    padding: 20px;
+  }
+
+  .home-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .add-food-hero {
+    padding: 30px 14px;
+    background-attachment: scroll;
+  }
+
+  .add-food-overlay {
+    max-height: none;
+  }
+
+  .choice-row {
+    flex-wrap: wrap;
+  }
+
+  .home-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 40px 20px 24px;
+  }
+}

@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Budget Tiffin Center", "district": "Erode", "city": "Gobichettipalayam", "price": "Rs.20" },
+  { "id": 2, "name": "People Mess", "district": "Salem", "city": "Salem", "price": "Rs.25" },
+  { "id": 3, "name": "Mini Meals Spot", "district": "Madurai", "city": "Madurai", "price": "Rs.30" },
+  { "id": 4, "name": "Worker Lunch Point", "district": "Coimbatore", "city": "Coimbatore", "price": "Rs.35" },
+  { "id": 5, "name": "Railway Canteen", "district": "Trichy", "city": "Trichy", "price": "Rs.25" },
+  { "id": 6, "name": "Student Food Hub", "district": "Namakkal", "city": "Namakkal", "price": "Rs.20" },
+  { "id": 7, "name": "Night Idli Corner", "district": "Tiruppur", "city": "Tiruppur", "price": "Rs.15" },
+  { "id": 8, "name": "Old Bus Stand Meals", "district": "Karur", "city": "Karur", "price": "Rs.30" },
+  { "id": 9, "name": "Budget Parcel House", "district": "Thanjavur", "city": "Kumbakonam", "price": "Rs.35" }
+]

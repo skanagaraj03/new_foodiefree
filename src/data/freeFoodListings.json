@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Amma Kitchen", "district": "Erode", "city": "Erode" },
+  { "id": 2, "name": "Friday Annadhanam", "district": "Salem", "city": "Attur" },
+  { "id": 3, "name": "Temple Service Meal", "district": "Madurai", "city": "Madurai" },
+  { "id": 4, "name": "Mosque Noon Meal", "district": "Coimbatore", "city": "Mettupalayam" },
+  { "id": 5, "name": "Church Care Point", "district": "Trichy", "city": "Srirangam" },
+  { "id": 6, "name": "Daily Share Counter", "district": "Namakkal", "city": "Rasipuram" },
+  { "id": 7, "name": "Volunteer Food Bank", "district": "Tiruppur", "city": "Dharapuram" },
+  { "id": 8, "name": "Festival Food Camp", "district": "Theni", "city": "Periyakulam" },
+  { "id": 9, "name": "Community Hall Meals", "district": "Karur", "city": "Kulithalai" }
+]

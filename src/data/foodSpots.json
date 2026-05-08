@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Annai Community Hall",
+    "district": "Erode",
+    "area": "Bus Stand",
+    "timing": "12:00 PM - 2:00 PM",
+    "availabilityType": "weekly",
+    "days": ["Friday"]
+  },
+  {
+    "id": 2,
+    "name": "People's Service Kitchen",
+    "district": "Salem",
+    "area": "Old Market",
+    "timing": "1:00 PM - 3:00 PM",
+    "availabilityType": "daily",
+    "days": ["Daily"]
+  },
+  {
+    "id": 3,
+    "name": "Temple Charity Point",
+    "district": "Madurai",
+    "area": "West Tower Street",
+    "timing": "11:30 AM - 1:30 PM",
+    "availabilityType": "festival",
+    "days": ["Pongal", "Deepavali", "Amavasai"]
+  }
+]

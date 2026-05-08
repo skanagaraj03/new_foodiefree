@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Recipe Discovery",
+    "description": "Explore thousands of recipes from around the world. Find inspiration for your next meal.",
+    "icon": "🍳"
+  },
+  {
+    "id": 2,
+    "title": "Community Sharing",
+    "description": "Share your favorite recipes and cooking tips with fellow food enthusiasts.",
+    "icon": "👥"
+  },
+  {
+    "id": 3,
+    "title": "Meal Planning",
+    "description": "Plan your weekly meals effortlessly with our intuitive meal planning tools.",
+    "icon": "📅"
+  },
+  {
+    "id": 4,
+    "title": "Nutritional Info",
+    "description": "Get detailed nutritional information for all recipes to maintain a healthy diet.",
+    "icon": "🥗"
+  },
+  {
+    "id": 5,
+    "title": "Cooking Tutorials",
+    "description": "Watch step-by-step cooking tutorials to master new techniques.",
+    "icon": "🎥"
+  },
+  {
+    "id": 6,
+    "title": "Shopping Lists",
+    "description": "Generate shopping lists automatically based on your selected recipes.",
+    "icon": "🛒"
+  }
+]
