@@ -12,7 +12,7 @@ const actions = [
   },
 ];
 
-function ActionSection() {
+function HomeActionsSection() {
   return (
     <section className="actions-section">
       <h2>what you can do with foodiefree :</h2>
@@ -30,4 +30,4 @@ function ActionSection() {
   );
 }
 
-export default ActionSection;
+export default HomeActionsSection;

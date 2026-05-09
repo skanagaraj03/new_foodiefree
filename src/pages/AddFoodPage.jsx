@@ -2,7 +2,7 @@ import HomeHeader from "../components/HomeHeader";
 import HomeFooter from "../components/HomeFooter";
 import "../styles/add-food.css";
 
-const Contact = () => {
+const AddFoodPage = () => {
   return (
     <div className="add-food-page">
       <main className="add-food-shell">
@@ -56,4 +56,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default AddFoodPage;
